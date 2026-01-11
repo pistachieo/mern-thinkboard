@@ -4,7 +4,7 @@ import { useState } from "react";
 import RateLimitedUI from "../components/RateLimitedUI";
 import api from "../lib/axios";
 import toast from "react-hot-toast";
-import Notecard from "../components/Notecard";
+import Notecard from "../components/NoteCard";
 import NotesNotFound from "../components/NotesNotFound";
 
 const HomePage = () => {
